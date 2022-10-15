@@ -22,7 +22,7 @@ client.categories = fs.readdirSync("./commands/");
 //Bot Status
 client.on("ready", () => {
 console.log(`Bot User ${client.user.username} has been logged in and is ready to use!`);
-client.user.setActivity('Naoto vibing | .help', { type: 'WATCHING' });
+client.user.setActivity('!sHelp', { type: 'PLAYING' });
 });
 
 client.on("message", async message => {
